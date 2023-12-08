@@ -1,4 +1,4 @@
-# LANDING PAGE CRIADA UTILIZANDO React + Vite
+# LANDING PAGE ORGANIZE-SE 
 
 Landing Page Organize-se criada utilizando React + Vite.
 
