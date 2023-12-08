@@ -1,8 +1,8 @@
 export const TituloSessao = ({nomeSessao, titulo}) => {
     return (
-        <>
-            <h2 className="text-azulPadrao font-serif font-semibold  text-lg">{nomeSessao}</h2>
-            <h1 className="text-azulPadrao font-serif font-bold text-2xl">{titulo}</h1>
-        </>
+        <div className="text-center w-full border-1">
+            <h2 className="text-azulPadrao text-blue-400 font-mono font-semibold  text-lg tracking-widest">{nomeSessao}</h2>
+            <h1 className="text-azulPadrao  text-white font-serif text-6xl mobile-p:text-4xl mt-1">{titulo}</h1>
+        </div>
     )
 }

@@ -1,13 +1,32 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: 'var(--font-roboto)',
+        alt: 'var(--font-bai-jamjuree)'
+      },
+      colors: {
+        gray: {
+          1000: '#09090a',
+          900:'#121214',
+          800: '#313137',
+        },
+        blue: {
+          1000: '#37afeb'
+        }
+      },
+      screens: {
+        'mobile-p': {'max': '425px'},
+        'mobile': {'max': '640px'},
+      }
 
+    },
   },
   plugins: [],
 }
-

@@ -1,23 +1,12 @@
 export const FooterPadrao = () => {
     return (
-        <div className="sessaoFooter">
-            <h1>ORGANIZE-SE</h1>
-            <div className="blocoContato">
-                <div className="numero">
-                    <i>icone</i>
-                    <p>61995794386</p>
-                </div>
-                <div className="email">
-                    <i>email</i>
-                    <p>mateusduraessilva@gmail.com</p>
-                </div>
-                <div className="redesSociais">
-                    <p>REDES SOCIAIS</p>
-                    <i>FACEBOOK</i>
-                    <i>TWITTER</i>
-                    <i>YOUTUBE</i>
+        <footer className="w-full pt-12 p-12 bg-gray-1000 text-white mobile-p:mt-12 mobile-p:pt-10 ">
+            <div className="w-full max-w-[75.875rem] m-auto min-h-8 flex mobile-p:flex-col mobile-p:pt-5 justify-around items-center">
+                <h1>ORGANIZE-SE</h1>
+                <div className="numero flex">
+                    <p>Desenvolvido por @matt-duraes</p>
                 </div>
             </div>
-        </div>
+        </footer>
     )
 }

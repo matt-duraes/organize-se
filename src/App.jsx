@@ -10,7 +10,7 @@ import { FooterPadrao } from './components/templates/FooterPadrao'
 
 function App() {
   return (
-    <>
+    <div className='bg-gray-900'>
       <MenuPadrao />
       <Banner />
       <Servicos />
@@ -18,7 +18,7 @@ function App() {
       <Depoimentos />
       <Formulario />
       <FooterPadrao />
-    </>
+    </div>
   )
 }
 
