@@ -4,8 +4,8 @@ import { TituloSessao } from "./templates/TituloSessao"
 export const Sobre = () => {
     return (
         <div className="flex mt-10 w-full max-w-[75.875rem] m-auto bg-gray-1000 border-[1px] border-gray-800 mobile-p:flex-col mobile-p:p-5" >
-            <figure className="w-[30%] flex justify-center items-center mobile-p:w-[100%]">
-                <img src="src/assets/banner.jpg" alt="" />
+            <figure className="w-[30%]  pl-5 flex justify-center items-center mobile-p:w-[100%] mobile-p:pl-0">
+                <img src="src/assets/imagem_portifolio.png" alt="" />
             </figure>
             <div className="w-[70%] p-20 mobile-p:w-[100%] mobile-p:p-5">
                 <TituloSessao nomeSessao={'SOBRE'} titulo={'Lorem ipsum dolor sit amet'} />

@@ -22,7 +22,7 @@ module.exports = {
         }
       },
       screens: {
-        'mobile-p': {'max': '425px'},
+        'mobile-p': {'max': '525px'},
         'mobile': {'max': '640px'},
       }
 
