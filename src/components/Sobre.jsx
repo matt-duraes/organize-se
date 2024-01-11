@@ -5,17 +5,17 @@ export const Sobre = () => {
     return (
         <div className="flex mt-10 w-full max-w-[75.875rem] m-auto bg-gray-1000 border-[1px] border-gray-800 mobile-p:flex-col mobile-p:p-5" >
             <figure className="w-[30%]  pl-5 flex justify-center items-center mobile-p:w-[100%] mobile-p:pl-0">
-                <img src="src/assets/imagem_portifolio.png" alt="" />
+                <img className="mobile:w-250px" src="src/assets/imagem_portifolio.png" alt="" />
             </figure>
             <div className="w-[70%] p-20 mobile-p:w-[100%] mobile-p:p-5">
-                <TituloSessao nomeSessao={'SOBRE'} titulo={'Lorem ipsum dolor sit amet'} />
+                <TituloSessao nomeSessao={'SOBRE'} titulo={'O organize-se'} />
                 <p className="text-white text-justify mt-5 mb-6">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nemo, exercitationem accusamus, commodi ex possimus    nihil ut voluptates nam accusantium sit illo tempora adipisci odio ducimus autem quae atque reprehenderit?
-                    Natus delectus neque unde asperiores, ea animi voluptatem praesentium nam aspernatur dicta maxime maiores expedita adipisci tenetur labore, provident ut illo ex, qui pariatur perferendis? Aperiam ipsum exercitationem consectetur dolores.
-                    Earum quisquam, dignissimos harum error iste accusamus obcaecati voluptate quas. Maiores dolore debitis adipisci enim accusantium, non, illum expedita commodi cumque, voluptate magni voluptas reiciendis perspiciatis iure vel laboriosam ipsa.
-                    Architecto saepe, non veritatis recusandae quia in nobis doloremque ab iste praesentium tenetur? Expedita fugiat nam quidem, voluptates exercitationem nemo temporibus saepe officia culpa odio praesentium nihil in aspernatur ullam?
+                O Organize-se é uma plataforma concebida para impulsionar o seu desenvolvimento pessoal. A nossa abordagem é gamificada, proporcionando uma experiência envolvente enquanto oferece diversas funcionalidades para tornar a jornada do desenvolvimento pessoal mais acessível.
+                <br />
+                <br />
+                Com o nosso sistema de controle financeiro, você ganha total domínio sobre o destino do seu dinheiro, aprendendo a poupar de maneira eficaz. Além disso, a funcionalidade de listas permite que você estabeleça metas pessoais, e nós estamos aqui para orientá-lo a alcançá-las. Por último, mas igualmente crucial, apresentamos o nosso relógio Pomodoro, um aliado valioso durante os estudos e a realização de tarefas. Este recurso proporciona assistência essencial nos momentos cruciais dessas atividades importantes.
                 </p>
-                <BotaoPadrao textoBotao={'Entre em contato'} />
+                <BotaoPadrao textoBotao={'Quero me inscrever'} />
             </div>
         </div>
     )

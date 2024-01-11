@@ -1,3 +1,5 @@
+import { List } from "@phosphor-icons/react"
+
 export const MenuPadrao = () => {
     return (
         <header className="w-full bg-gray-1000 lg:sticky lg:top-0">
@@ -7,20 +9,22 @@ export const MenuPadrao = () => {
             </figure>
             <div className="flex-1">
                 <ul className="flex flex-row justify-end items-center gap-4  text-[1.2rem] mobile:hidden">
-                    <li className="hover:text-blue-600">
-                        <a href="#">Home</a>
-                    </li>
-                    <li className="hover:text-blue-600">
-                        <a href="#">Contato</a>
-                    </li>
-                    <li className="hover:text-blue-600">
+                    <li className="hover:text-[#6ec1e5]">
                         <a href="#">Sobre</a>
                     </li>
-                    <li className="hover:text-blue-600">
+                    <li className="hover:text-[#6ec1e5]">
                         <a href="#">Serviços</a>
                     </li>
+                    <li className="hover:text-[#6ec1e5]">
+                        <a href="#">Contato</a>
+                    </li>
+                    <li className="hover:text-[#6ec1e5]">
+                        <a href="#">Login</a>
+                    </li>
                 </ul>
-                <p className="hidden mobile:flex items-center justify-end">MENU </p>
+                <p className="hidden mobile:flex items-center justify-end">
+                    <List size={32} />
+                </p>
             </div>
         </nav>
 

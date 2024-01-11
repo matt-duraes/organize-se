@@ -1,3 +1,4 @@
+import { Star } from "@phosphor-icons/react/dist/ssr"
 import { CardPadrao } from "./templates/CardPadrao"
 import { TituloSessao } from "./templates/TituloSessao"
 
@@ -10,25 +11,16 @@ export const Depoimentos = () => {
             </div>
             <div className="bloco_card flex gap-5  max-w-[75.875rem] m-auto mobile-p:flex-col mobile-p:p-5">
                 <CardPadrao 
-                    icone={'5 start'} 
-                    link={'https://google.com'}
-                    textoLink={'teste'}
-                    texto={'lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem'}
-                    tituloPadrao={'ANTONIO alves'}
+                    texto={'Achei a plataforma insana! Depois que comecei usar nunca mais parei'}
+                    tituloPadrao={'João Mesquita'}
                 />
                 <CardPadrao 
-                    icone={'5 start'} 
-                    link={'https://google.com'}
-                    textoLink={'teste'}
-                    texto={'lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem'}
-                    tituloPadrao={'ANTONIO alves'}
+                    texto={'Só tenho a agradecer por ter conhecido o ORGANIZE-SE, não sei como vivia sem'}
+                    tituloPadrao={'Antônio Teixeira'}
                 />
                 <CardPadrao 
-                    icone={'5 start'} 
-                    link={'https://google.com'}
-                    textoLink={'teste'}
-                    texto={'lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem'}
-                    tituloPadrao={'ANTONIO alves'}
+                    texto={'A melhor plataforma para gerenciamento de vida que eu já vi, amei'}
+                    tituloPadrao={'Bia Totti'}
                 />
             </div>
         </div>
