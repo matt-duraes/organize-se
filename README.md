@@ -1,6 +1,6 @@
 # Landing Page ORGANIZE-SE 
 
-Landing page criada utilizando react, as bibliotecas e tecnologias utilizadas nesse projeto foram
+Landing page criada para o site organize-se, foi utilizado nesse projeto
 - React
 - Vite
 - Javascript
